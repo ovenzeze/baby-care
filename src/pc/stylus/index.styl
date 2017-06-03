@@ -1,0 +1,403 @@
+// section1
+.slide-wrapper
+  .slide
+    .intro
+      color: white
+      width: 500px
+      height: 0px
+      background: rgba(0, 0, 0, 0.2)
+      margin: auto
+      position: relative
+      text-align: center
+      transition: 0.5s
+      display: none
+      &:hover
+        box-shadow 1px 1px 15px rgba(0, 0, 0, 1)
+      h1, p
+        text-align: center
+      h1
+        padding-top: 50px
+        padding-bottom: 50px
+      p
+        line-height: 30px
+        padding: 10px 30px
+      input
+        width: 150px
+        height: 60px
+        margin-top: 20px
+        font-size 16px
+        cursor: pointer
+        border: none
+        border-radius: 35px
+        color: white
+        background: rgba(0, 0, 0, 0.3)
+        transition: 0.3s
+        &:hover
+          text-shadow 2px 3px 5px rgba(0, 0, 0, 1)
+          box-shadow 1px 1px 15px rgba(0, 0, 0, 1)
+
+  #slide1
+    background: url("../images/index-slide-1.png") rgb(247, 215, 4)
+    background-position: 50% 50%
+    background-size: 80% 80%
+    background-repeat: no-repeat
+  #slide2
+    background: url("../images/index-slide-2.png") rgb(255, 173, 82)
+    background-position: 50% 50%
+    background-size: cover
+    background-size: 80% 80%
+    background-repeat: no-repeat
+  #slide3
+    background: url("../images/index-slide-3.png") rgb(108, 201, 247)
+    background-position: 50% 50%
+    background-size: cover
+    background-size: 80% 80%
+    background-repeat: no-repeat
+
+// section2
+.section2
+  .main
+    text-align: center
+    margin: 0 auto
+    width: 1000px
+    .title
+      margin: 30px auto
+      text-align: center
+      position: relative
+      top: -200px
+      z-index: -3
+      opacity: 0
+      h3
+        color: #474747
+        font-size: 25px
+      p
+        margin-top: 30px
+        margin-bottom: 40px
+        color: rgba(234, 177, 69, 1)
+        font-size: 22px
+    .kinder
+      display: inline-block
+      border-radius: 50%
+      width: 300px
+      height: 300px
+      float: left
+      margin-left: 170px
+      position: relative
+      left: -700px
+      opacity: 0
+      background: rgba(234, 177, 69, 0.5)
+      opacity: 0
+      &:hover
+        box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.5)
+      .content
+        margin: 15% auto
+        width: 60%
+        text-align: center
+        h3
+          font-size: 25px
+          color: #474747
+        ul
+          width: 100%
+          height: 60%
+          margin-top: 20%
+          li
+            height: 40px
+            line-height: 40px
+            background: rgba(234, 177, 69, 0.8)
+            border-radius: 35px
+            margin-top: 10px
+            transition: 0.5s
+            &:hover
+              box-shadow: 1px 1px 15px rgba(0, 0, 0, 1)
+
+    .earlyedu
+      display: inline-block
+      border-radius: 50%
+      width: 300px
+      height: 300px
+      float: right
+      margin-right: 170px
+      position: relative
+      right: -700px
+      background: rgba(234, 177, 69, 0.5)
+      opacity: 0
+      &:hover
+        box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.5)
+      .content
+        margin: 15% auto
+        width: 60%
+        height: 70%
+        text-align: center
+        h3
+          font-size: 25px
+          color: #474747
+        ul
+          width: 100%
+          height: 60%
+          margin-top: 20%
+          li
+            height: 40px
+            line-height: 40px
+            background: rgba(234, 177, 69, 0.8)
+            border-radius: 35px
+            margin-top: 10px
+            transition: 0.5s
+            &:hover
+              box-shadow: 1px 1px 15px rgba(0, 0, 0, 1)
+
+// section3
+.section3
+  .main
+    max-width: 1024px
+    width: 100%
+    height: 750px
+    margin: 0px auto
+    text-align: center
+    .center
+      display: inline-block
+      width: 500px
+      height: 600px
+      position: relative
+      float: left
+      img
+        width: 100%
+        height: 100%
+        position: relative
+        z-index: 1
+      .title
+        position: absolute
+        z-index: 2
+        top: 0
+        width: 70%
+        height: 60%
+        margin-top: 30%
+        margin-left: 15%
+        h3
+          color: #474747
+          font-size: 25px
+          margin-top: 100px
+          text-align center
+        p
+          color: rgba(254, 147, 69, 1)
+          font-size: 22px
+          margin-top: 30px
+          text-align center
+    .left
+      display: inline-block
+      width: 262px
+      height: 550px
+      float: left
+      position: relative
+      .branch1
+        position: absolute
+        right: -500px
+        top: 130px
+        height: 50px
+        padding: 30px 170px 0 0
+        color: #474747
+        font-size: 16px
+        transition: all 1.2s ease-out 0s
+        background: url(http://www.rybbaby.com/Public/static/themes/image/line8.png) right top no-repeat
+      .branch2
+        position: absolute
+        right: -300px
+        top: 300px
+        height: 50px
+        padding: 30px 170px 0 0
+        color: #474747
+        font-size: 16px
+        transition: all 1.2s ease-out 0s
+        background: url(http://www.rybbaby.com/Public/static/themes/image/line8.png) right top no-repeat
+      .branch3
+        position: absolute
+        right: -360px
+        top: 450px
+        height: 50px
+        padding: 30px 170px 0 0
+        color: #474747
+        font-size: 16px
+        transition: all 1.2s ease-out 0s
+        background: url(http://www.rybbaby.com/Public/static/themes/image/line8.png) right top no-repeat
+    .right
+      display: inline-block
+      width: 262px
+      height: 550px
+      float: left
+      position: relative
+      .branch1
+        position: absolute
+        left: -490px
+        top: 130px
+        height: 50px
+        padding: 30px 0 0 170px
+        color: #474747
+        font-size: 16px
+        transition: all 1.2s ease-out 0s
+        background: url(http://www.rybbaby.com/Public/static/themes/image/line9.png) left top no-repeat
+      .branch2
+        position: absolute
+        left: -400px
+        top: 300px
+        height: 50px
+        padding: 30px 0 0 170px
+        color: #474747
+        font-size: 16px
+        transition: all 1.2s ease-out 0s
+        background: url(http://www.rybbaby.com/Public/static/themes/image/line9.png) left top no-repeat
+      .branch3
+        position: absolute
+        left: -460px
+        top: 450px
+        height: 50px
+        padding: 30px 0 0 170px
+        color: #474747
+        font-size: 16px
+        transition: all 1.2s ease-out 0s
+        background: url(http://www.rybbaby.com/Public/static/themes/image/line9.png) left top no-repeat
+
+// section4
+.section4
+  .main
+    width: 1024px
+    height: 600px
+    margin: 0 auto
+    text-align: center
+    img
+      width: 250px
+      height: 250px
+      border-radius: 30px
+      margin-top: 30px
+      margin-left: 10px
+      transition: 0.5s
+      &:hover
+        box-shadow: 1px 1px 20px rgba(0, 0, 0, 1)
+    .left, .center, .right
+      width: 340px
+      float: left
+      position: relative
+      text-align: center
+      opacity: 0
+      h3
+        font-size: 24px
+        text-align: center
+        color: #474747
+        margin-top: 40px
+      h4
+        font-size: 14px
+        text-align: center
+        color: #474747
+        margin-top: 10px
+      p
+        font-size: 14px
+        color: #474747
+        text-align: center
+        line-height: 25px
+        margin-top: 15px
+        padding: 0 25px
+
+    .left
+      left: -700px
+    .center
+      bottom: -700px
+    .right
+      right: -700px
+
+// section5
+.section5
+  .main
+    width: 1000px
+    height: 420px
+    text-align: center
+    margin: 20px auto
+    .left
+      width: 200px
+      height: 100%
+      margin-left: 80px
+      margin-right: 40px
+      float: left
+      display: inline-block
+      ul
+        li
+          list-style: none
+          height: 70px
+          width: 100%
+          background: rgba(239, 239, 239, 0.5)
+          margin-top: 5px
+          transition: 0.5s
+          cursor: pointer
+          &:hover
+            box-shadow 5px 5px 20px rgba(0, 0, 0, 0.3)
+            text-shadow 15px 10px 50px rgba(0, 0, 0, 0.5)
+          span
+            display: inline-block
+            width: 90px
+            height: 100%
+            line-height: 100%
+            font-size: 20px
+            vertical-align: top
+            margin-top: 25px
+          i
+            width: 50px
+            height: 50px
+            display: inline-block
+            font-size: 45px
+            vertical-align: top
+            margin-top: 25px
+            margin-right: 10px
+    .right
+      width: 600px
+      height: 100%
+      margin-right: 80px
+      margin-top: 5px
+      background: rgba(239, 239, 239, 0.8)
+      float: left
+      display: inline-block
+      box-shdow: 3px 5px 15px rgba(0, 0, 0, 0.5)
+      ul
+        transition: all 1.2s ease-out 0.5s
+        box-shdow: 3px 5px 15px rgba(0, 0, 0, 0.8)
+        fliter: drop-shadow(5px 5px 10px #AEA3A3)
+        li
+          width: 100%
+          height: 120px
+          margin-bottom: 20px
+          cursor: pointer
+          transition: 0.5s
+          &:hover
+            width: 110%
+            height: 130px
+            .title
+              font-size: 18px
+              color: #555
+          .img
+            width: 150px
+            height: 100px
+            padding: 10px 20px
+            display: inline-block
+            float: left
+            transition: all 0.5s
+            img
+              width: 100%
+              height: 100%
+              transition: all 0.5s
+          .content
+            width: 400px
+            height: 100%
+            float: left
+            display: inline-block
+            overflow: hidden
+            .title
+              text-align: left
+              padding: 10px 5px
+              transition: 0.5s
+            .intro
+              text-align: left
+              padding: 10px 5px
+              line-height: 25px
+              overflow: hidden
+              transition: 0.5s
+              color: #888787
+
+// section6
+.section6
+  padding-top: 0px !important

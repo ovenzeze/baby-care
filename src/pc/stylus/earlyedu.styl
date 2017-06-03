@@ -1,0 +1,153 @@
+.section
+  width: 100%
+  margin: 0 auto
+@-webkit-keyframes greenPulse {
+  from { background-color: rgba(255,128,0,0.5); -webkit-box-shadow: 0 0 9px #333; }
+  50% { background-color: rgba(255,128,0,0.7); -webkit-box-shadow: 0 0 18px #91bd09; }
+  to { background-color: rgba(255,128,0,1); -webkit-box-shadow: 0 0 9px #333; }
+}
+//section1
+.section1
+  .main
+    width: 100%
+    position: relative
+    img
+      width: 100%
+    .slogn
+      width: 300px
+      height: 500px
+      position: absolute
+      top: 150px
+      left: -150px
+      text-align: center
+      color: #fff
+      opacity: 0
+      h1
+        margin: 30px 30px
+      h2
+        margin: 30px 30px
+//section2
+.section2
+  .main
+    width: 1024px
+    margin: 0 auto
+    h1
+      text-align: center
+      margin-top: 50px
+      margin-bottom: 50px
+    .item-list
+      width: 1024px
+      height: 40px
+      opacity: 0
+      paddding: 20px 15px
+      .actived .dot
+        width: 5px
+        height: 40px
+        background-color: #829606
+        margin: 0 5px 0 0
+        border-radius: 0
+      .actived .text
+        color: #829606
+      li
+        width: 200px
+        height: 40px
+        margin: 0px 15px
+        list-style: none
+        float: left
+        background-color: rgba(224, 236, 253,0.6)
+        cursor: pointer
+        .dot
+          display: inline-block
+          width: 13px
+          height: 13px
+          border-radius: 50%
+          margin: 14px 5px 18px 10px
+          background-color: rgba(210, 173, 173, 1)
+          transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1)
+        .text
+          display: inline-block
+          width: 67px
+          height: 20px
+          margin: 12px auto
+          font-size: 16px
+          font-weight: bold
+          vertical-align: top
+          color: rgba(210, 173, 173, 1)
+          transition: all 0.5s
+          text-align: center
+    .item-content
+      width: 450px
+      height: 300px
+      padding: 100px 0 0 30px
+      margin: 0px auto
+      position: relative
+      opacity: 0
+      bottom: -300px
+      span
+        display: block
+        text-align: center
+        height: 50px
+        margin: 30px 30px
+        line-height: 50px
+        font-size: 16px
+        background-color: rgba(255,128,0,1)
+        font-weight: bold
+        -webkit-animation-name: greenPulse
+        -webkit-animation-duration: 2s
+        -webkit-animation-iteration-count: infinite
+        transition: all 1s
+//section3
+.section3
+  .main
+    width: 80%
+    height: 500px
+    margin: 0px auto
+    position: relative
+    .img-bg
+      width: 1%
+      height: 1%
+    .img-text
+      width: 360px
+      height: 220px
+      position: absolute
+      top: -120px
+      left: -120px
+      opacity: 0
+    .img-girl
+      width: 170px
+      height: 450px
+      position: absolute
+      bottom: -450px
+      right: 140px
+      opacity: 0
+//section4
+.section4
+  .main
+    width: 850px
+    height: 100%
+    margin: 0px auto
+    position: relative
+    .img-left
+      width: 100px
+      height: 400px
+      position: absolute
+      top: 150px
+      left: -50px
+      opacity: 0
+    .img-right
+      width: 250px
+      height: 300px
+      position: absolute
+      top: 200px
+      right: -150px
+      opacity: 0
+    .img-middle
+      width: 380px
+      height: 380px
+      position: absolute
+      top: -150px
+      left: 230px
+      opacity: 0
+//section5
+  .section-footer
+    padding-top: 0 !important

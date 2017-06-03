@@ -1,0 +1,526 @@
+@charset "utf-8";
+/***************************reset**************************/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    font-family: "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+}
+
+body {
+    font-size: 14px;
+    font-family: Arial, Verdana, Tahoma, "微软雅黑", "黑体";
+    line-height: 120%;
+    /*background:#fff;*/
+    background-color: white;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+dl,
+li,
+form,
+table {
+    margin: 0;
+    padding: 0;
+}
+
+a,
+img {
+    border: none;
+    text-decoration: none;
+}
+
+img {
+    vertical-align: middle;
+    border: 0;
+}
+
+a {
+    color: white;
+}
+
+li {
+    list-style: none;
+}
+
+/**********************media query***********************/
+
+/*********************Gobal Classes**********************/
+
+/*清除浮动*/
+
+.clearfix:after {
+    clear: both;
+    content: '';
+    display: block;
+}
+
+/*For IE*/
+
+.clearfix {
+    zoom: 1;
+}
+
+/*常用颜色*/
+
+.color-white {
+    color: white;
+}
+
+.bgc-white {
+    background-color: white;
+}
+
+.color-black {
+    color: black;
+}
+
+.bgc-black {
+    background-color: black;
+}
+
+.color-welcome {
+    color: rgba(50, 104, 133, 1);
+}
+
+.bgc-welcome {
+    background-color: rgba(50, 104, 133, 1);
+}
+
+.color-header {
+    color: rgba(130, 182, 211, 1);
+}
+
+.bgc-header {
+    background-color: rgba(130, 182, 211, 1);
+}
+
+.color-primary {
+    color: rgba(66, 139, 202, 1);
+}
+
+.bgc-primary {
+    background-color: rgba(66, 139, 202, 1);
+}
+
+.color-success {
+    color: rgba(92, 184, 92, 1);
+}
+
+.bgc-success {
+    background-color: rgba(92, 184, 92, 1);
+}
+
+.color-info {
+    color: rgba(91, 192, 222, 1);
+}
+
+.bgc-info {
+    background-color: rgba(91, 192, 222, 1);
+}
+
+.color-wraning {
+    color: rgba(240, 173, 78, 1);
+}
+
+.bgc-wraning {
+    background-color: rgba(240, 173, 78, 1);
+}
+
+.color-danger {
+    color: rgba(217, 83, 79, 1);
+}
+
+.bgc-danger {
+    background-color: rgba(217, 83, 79, 1);
+}
+
+/*文本对齐方式*/
+
+.t-l {
+    text-align: left;
+}
+
+.t-c {
+    text-align: center;
+}
+
+.t-r {
+    text-align: right;
+}
+
+/*块状元素水平居中*/
+
+.m-c {
+    margin: 0px auto;
+}
+
+/*浮动方向*/
+
+.f-l {
+    float: left;
+}
+
+.f-r {
+    float: right;
+}
+
+/*字体大小*/
+
+.f-b {
+    font-weight: bold;
+}
+
+.f-12 {
+    font-size: 12px;
+}
+
+.f-13 {
+    font-size: 13px;
+}
+
+.f-14 {
+    font-size: 14px;
+}
+
+.f-16 {
+    font-size: 16px;
+}
+
+.f-18 {
+    font-size: 18px;
+}
+
+.f-20 {
+    font-size: 20px;
+}
+
+/*显示方式*/
+
+.block {
+    display: block;
+}
+
+.inline {
+    display: inline;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+/*常用外边距*/
+
+.m-b-10 {
+    margin-bottom: 10px;
+}
+
+.m-b-20 {
+    margin-bottom: 20px;
+}
+
+.m-b-30 {
+    margin-bottom: 30px;
+}
+
+.m-t-10 {
+    margin-top: 10px;
+}
+
+.m-t-20 {
+    margin-top: 20px;
+}
+
+.m-t-30 {
+    margin-top: 30px;
+}
+
+.m-l-10 {
+    margin-left: 10px;
+}
+
+.m-l-20 {
+    margin-left: 20px;
+}
+
+.m-l-30 {
+    margin-left: 30px;
+}
+
+.m-r-10 {
+    margin-right: 10px;
+}
+
+.m-r-20 {
+    margin-right: 20px;
+}
+
+.m-r-30 {
+    margin-right: 30px;
+}
+
+/*常用行高*/
+
+.l-h-20 {
+    line-height: 20px;
+}
+
+.l-h-25 {
+    line-height: 25px;
+}
+
+.l-h-30 {
+    line-height: 30px;
+}
+
+.l-h-35 {
+    line-height: 35px;
+}
+
+/*style for template |header|aside|footer|*/
+/*header*/
+html,
+body {
+    width: 100%;
+}
+
+.header-wrapper {
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+    background-color: #eab145;
+    height: 100px;
+}
+
+.header {
+    width: 1270px;
+    margin: 0 auto;
+}
+
+.header .logo {
+    width: 250px;
+    height: 100%;
+    float: left;
+}
+
+.header .logo img {
+    width: 180px;
+    height: 55px;
+    margin: 5px 30px;
+}
+
+.header .logo .slogan {
+    width: 180px;
+    height: 22px;
+    line-height: 22px;
+    font-size: 12px;
+    text-align: center;
+    color: #eab145;
+    background: #fff;
+    margin: 2px 30px;
+}
+
+.header ul {
+    width: 760px;
+    height: 100%;
+    float: left;
+}
+
+.header ul li {
+    list-style: none;
+    float: left;
+    width: 120px;
+    padding: 0px;
+    margin: 42px 0px;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    text-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.header ul .actived {
+    background-color: #ea9b45;
+    padding: 42px 0px;
+    margin: 0px;
+}
+
+.header ul li:hover {
+    background-color: #ea9b45;
+    color: #333;
+    padding: 42px 0px;
+    text-shadow: 0 6px 6px rgba(0, 0, 0, 0.3);
+    margin: 0px;
+}
+
+.header .search {
+    width: 260px;
+    height: 100%;
+    float: left;
+}
+
+.header .search .telephone {
+    width: 100%;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    padding-top: 5px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.header .search .telephone i {
+    font-size: 23px;
+}
+
+.header .search .search-form {
+    margin: 5px auto;
+    width: 184px;
+    overflow: hidden;
+    position: relative;
+}
+
+.header .search .search-form .input-wrapper {
+    overflow: hidden;
+    padding-right: 30px;
+}
+
+.header .search .search-form .input-wrapper .search-input {
+    box-sizing: content-box;
+    border-color: transparent;
+    transition: 0.3s;
+    border-radius: 35px;
+    border-style: solid;
+    border-width: 3px;
+    width: 100%;
+    height: 25px;
+    background: rgba(234, 155, 69, 0.6);
+    color: white;
+    padding: 0px 10px;
+    -webkit-appearance: none;
+    text-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+}
+.header .search .search-form .input-wrapper .search-input::-webkit-input-placeholder {
+    color: white;
+}
+
+
+.header .search .search-form .input-wrapper .search-input:focus {
+    outline: none;
+    border: 3px solid rgba(234, 155, 69, 0.9);
+}
+
+.header .search .search-form .search-submit {
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: block;
+    width: 40px;
+    height: 30px;
+    border: none;
+    padding-right: 10px;
+    font-size: 18px;
+    line-height: 25px;
+    color: white;
+    background: transparent;
+}
+
+/*header end*/
+/*footer*/
+.footer {
+    width: 100%;
+    height: 200px;
+    color: #fff;
+    /*background-color: rgba(145, 189, 9, 0.8);*/
+    background-image: url("../images/footer-bg.jpg");
+}
+
+.footer .logo {
+    width: 20%;
+    height: 100%;
+    float: left;
+    display: inline-block;
+    text-align: center;
+}
+
+.footer .logo img {
+    width: 200px;
+    line-height: 200px;
+    padding-top: 50px;
+}
+
+.footer .about {
+    width: 60%;
+    height: 100%;
+    float: left;
+}
+
+.footer .about ul {
+    width: 100%;
+    height: 100%;
+}
+
+.footer .about ul li {
+    list-style: none;
+    float: left;
+    width: 25%;
+    font-size: 16px;
+    padding-top: 92px;
+    text-shadow: 0 1px 2px #ccc;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.footer .about ul li:hover {
+    color: #888;
+    text-shadow: 0 1px 2px #333;
+}
+
+.footer .contact {
+    width: 20%;
+    height: 100%;
+    float: left;
+    display: inline-block;
+    text-align: center;
+}
+
+.footer .contact p {
+    padding-top: 40px;
+    text-shadow: 0 1px 2px #ccc;
+}
+
+.footer .contact img {
+    width: 100px;
+    height: 100px;
+    padding-top: 10px;
+}
+
+.copyright {
+    width: 100%;
+    height: 30px;
+    margin-right: 100%;
+    color: #888;
+    background: #eab145;
+}
+
+.copyright p {
+    text-align: center;
+    padding: 5px;
+}
+
+/*footer end*/
