@@ -9,6 +9,10 @@ $(document).ready(function() {
                     opacity: 1,
                     top: 0
                 },1500);
+                $('.section1 .main .qrcode').animate({
+                    opacity: 1,
+                    bottom: 0
+                },1500);
             }
             if(index == 2) {
                 $(".section2 .main .content ul").animate({
@@ -18,6 +22,10 @@ $(document).ready(function() {
                 $(".section2 .main .content p").animate({
                     opacity: 1,
                     top: "0px"
+                },1500);
+                $(".section2 .main .fonder").animate({
+                    opacity: 1,
+                    right: "0px"
                 },1500);
             }
             if(index == 3) {
@@ -94,10 +102,10 @@ $(document).ready(function() {
         //         },0);
         //     }
         // },
-        fitToSection: false,
+        fitToSection: true,
         // fitToSectionDelay: 100,
         paddingTop: "100px",
-        autoScrolling: false
+        autoScrolling: true
     });
     // options of fullpage end
 });

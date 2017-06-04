@@ -106,8 +106,8 @@
 .section4 .main .box .content i {
   display: block;
   font-size: 80px;
-  margin-top: 50%;
-  margin-bottom: 40%;
+  margin-top: 30%;
+  margin-bottom: 30%;
   transition: all 1s;
 }
 .section4 .main .box .content p {
@@ -135,6 +135,7 @@
   margin: 20px 30px;
   position: relative;
   opacity: 0;
+  overflow: hidden;
 }
 .section5 .main .box img {
   width: 100%;
@@ -159,18 +160,20 @@
 }
 .section5 .main .box .content:hover p {
   display: block;
+  opacity: 1;
 }
 .section5 .main .box .content i {
   display: block;
   font-size: 80px;
-  margin-top: 50%;
-  margin-bottom: 40%;
+  margin-top: 30%;
+  margin-bottom: 30%;
   transition: all 1s;
 }
 .section5 .main .box .content p {
   line-height: 30px;
   font-size: 16px;
   display: none;
+  opacity: 0;
   transition: all 2s;
 }
 @-webkit-keyframes greenPulse {

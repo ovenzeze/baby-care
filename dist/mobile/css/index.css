@@ -138,10 +138,20 @@
   width: 100%;
   height: 100%;
 }
+.subject-system h1 {
+  text-align: center;
+  margin-top: 0.2rem;
+}
+.subject-system p {
+  text-align: center;
+  margin-top: 0.3rem;
+  margin-bottom: 0.3rem;
+  color: #eab145;
+}
 .subject-system .main {
   width: 100%;
   height: 3.5rem;
-  margin: 0px auto;
+  margin: 0.2rem auto;
   text-align: center;
 }
 .subject-system .main h1 {
@@ -155,7 +165,6 @@
   margin-bottom: 0.3rem;
   margin: 0.3rem auto;
   text-align: center;
-  color: #eab145;
   font-size: 0.2rem;
 }
 .subject-system .main .left {
@@ -197,7 +206,6 @@
   width: 55%;
   height: 100%;
   float: left;
-  opacity: 0.5;
   background-color: #e7b325;
   transition: all 0.5s;
 }
@@ -215,5 +223,6 @@
   margin: 0rem auto;
   line-height: 0.25rem;
   font-size: 0.15rem;
+  color: #000;
   position: relative;
 }
