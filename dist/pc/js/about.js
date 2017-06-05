@@ -34,6 +34,20 @@ $(document).ready(function() {
                     width: "800px"
                 },1500);
             }
+            if(index == 4) {
+                $(".section4 .main .boarding-class").animate({
+                    opacity: 1,
+                    left: "0px"
+                }, 1500);
+                $(".section4 .main .earlyedu").animate({
+                    opacity: 1,
+                    bottom: "0px"
+                }, 1500);
+                $(".section4 .main .multi-dimention").animate({
+                    opacity: 1,
+                    right: "0px"
+                }, 1500);
+            }
             if(index == 5) {
                 $(".section5 .content img").animate({
                     opacity: 1,

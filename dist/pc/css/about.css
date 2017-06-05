@@ -137,6 +137,15 @@
   margin: 30px;
   color: #707070;
 }
+.section4 .main .boarding-class {
+  left: -500px;
+}
+.section4 .main .earlyedu {
+  bottom: -500px;
+}
+.section4 .main .multi-dimention {
+  right: -500px;
+}
 .section4 .main .boarding-class,
 .section4 .main .earlyedu,
 .section4 .main .multi-dimention {
@@ -146,6 +155,8 @@
   float: left;
   margin-right: 50px;
   margin-left: 50px;
+  position: relative;
+  opacity: 0;
 }
 .section4 .main .boarding-class .image,
 .section4 .main .earlyedu .image,
