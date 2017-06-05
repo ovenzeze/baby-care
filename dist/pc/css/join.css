@@ -65,64 +65,59 @@
   left: -1500px;
 }
 .section4 {
-  background-image: url("../images/index-bg-02.png");
+  background-image: url("../images/index-bg-03.png");
   background-size: cover;
 }
 .section4 .main {
-  width: 1024px;
+  width: 1200px;
   margin: 0 auto;
+}
+.section4 .main h1 {
+  font-size: 24px;
   text-align: center;
+  margin: 30px;
+  color: #ff8000;
 }
 .section4 .main h3 {
-  font-size: 22px;
-  margin: 30px auto;
+  font-size: 20px;
+  text-align: center;
+  margin: 30px;
+  color: #707070;
 }
-.section4 .main .box {
-  background-size: cover;
-  background-color: rgba(2,3,4,0.2);
-  width: 1px;
-  height: 380px;
+.section4 .main .boarding-class,
+.section4 .main .earlyedu,
+.section4 .main .multi-dimention {
+  width: 300px;
+  height: 480px;
+  background-color: rgba(234,177,69,0.5);
   float: left;
-  margin: 20px 30px;
-  position: relative;
-  opacity: 0;
-  overflow: hidden;
+  margin-right: 50px;
+  margin-left: 50px;
 }
-.section4 .main .box img {
-  height: 100%;
-  opacity: 0.5;
+.section4 .main .boarding-class .image,
+.section4 .main .earlyedu .image,
+.section4 .main .multi-dimention .image {
+  width: 100%;
+  height: 400px;
 }
-.section4 .main .box .content {
-  position: absolute;
+.section4 .main .boarding-class .image img,
+.section4 .main .earlyedu .image img,
+.section4 .main .multi-dimention .image img {
   width: 100%;
   height: 100%;
-  top: 0px;
-  left: 0px;
-  opacity: 0.6;
-  transition: all 2s;
 }
-.section4 .main .box .content:hover {
-  opacity: 1;
+.section4 .main .boarding-class .text h3,
+.section4 .main .earlyedu .text h3,
+.section4 .main .multi-dimention .text h3 {
+  font-size: 20px;
+  margin: 15px;
 }
-.section4 .main .box .content:hover i {
-  margin-top: 20%;
-  margin-bottom: 20%;
-}
-.section4 .main .box .content:hover p {
-  display: block;
-}
-.section4 .main .box .content i {
-  display: block;
-  font-size: 80px;
-  margin-top: 30%;
-  margin-bottom: 30%;
-  transition: all 1s;
-}
-.section4 .main .box .content p {
-  line-height: 30px;
+.section4 .main .boarding-class .text p,
+.section4 .main .earlyedu .text p,
+.section4 .main .multi-dimention .text p {
   font-size: 16px;
-  display: none;
-  transition: all 2s;
+  color: #707070;
+  text-align: center;
 }
 .section5 {
   background-image: url("../images/index-bg-02.png");
@@ -130,7 +125,6 @@
 }
 .section5 .main {
   width: 1024px;
-  height: 500px;
   margin: 0 auto;
   text-align: center;
 }
@@ -141,8 +135,8 @@
 .section5 .main .box {
   background-size: cover;
   background-color: rgba(2,3,4,0.2);
-  width: 270px;
-  height: 1px;
+  width: 1px;
+  height: 380px;
   float: left;
   margin: 20px 30px;
   position: relative;
@@ -150,7 +144,6 @@
   overflow: hidden;
 }
 .section5 .main .box img {
-  width: 100%;
   height: 100%;
   opacity: 0.5;
 }
@@ -172,7 +165,6 @@
 }
 .section5 .main .box .content:hover p {
   display: block;
-  opacity: 1;
 }
 .section5 .main .box .content i {
   display: block;
@@ -182,6 +174,69 @@
   transition: all 1s;
 }
 .section5 .main .box .content p {
+  line-height: 30px;
+  font-size: 16px;
+  display: none;
+  transition: all 2s;
+}
+.section6 {
+  background-image: url("../images/index-bg-02.png");
+  background-size: cover;
+}
+.section6 .main {
+  width: 1024px;
+  height: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+.section6 .main h3 {
+  font-size: 22px;
+  margin: 30px auto;
+}
+.section6 .main .box {
+  background-size: cover;
+  background-color: rgba(2,3,4,0.2);
+  width: 270px;
+  height: 1px;
+  float: left;
+  margin: 20px 30px;
+  position: relative;
+  opacity: 0;
+  overflow: hidden;
+}
+.section6 .main .box img {
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+}
+.section6 .main .box .content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  opacity: 0.6;
+  transition: all 2s;
+}
+.section6 .main .box .content:hover {
+  opacity: 1;
+}
+.section6 .main .box .content:hover i {
+  margin-top: 20%;
+  margin-bottom: 20%;
+}
+.section6 .main .box .content:hover p {
+  display: block;
+  opacity: 1;
+}
+.section6 .main .box .content i {
+  display: block;
+  font-size: 80px;
+  margin-top: 30%;
+  margin-bottom: 30%;
+  transition: all 1s;
+}
+.section6 .main .box .content p {
   line-height: 30px;
   font-size: 16px;
   display: none;

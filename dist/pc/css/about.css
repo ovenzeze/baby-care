@@ -118,25 +118,80 @@
   opacity: 0;
 }
 .section4 {
-  padding-top: 20px;
+  background-image: url("../images/index-bg-03.png");
+  background-size: cover;
 }
 .section4 .main {
+  width: 1200px;
+  margin: 0 auto;
+}
+.section4 .main h1 {
+  font-size: 24px;
+  text-align: center;
+  margin: 30px;
+  color: #ff8000;
+}
+.section4 .main h3 {
+  font-size: 20px;
+  text-align: center;
+  margin: 30px;
+  color: #707070;
+}
+.section4 .main .boarding-class,
+.section4 .main .earlyedu,
+.section4 .main .multi-dimention {
+  width: 300px;
+  height: 480px;
+  background-color: rgba(234,177,69,0.5);
+  float: left;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+.section4 .main .boarding-class .image,
+.section4 .main .earlyedu .image,
+.section4 .main .multi-dimention .image {
+  width: 100%;
+  height: 400px;
+}
+.section4 .main .boarding-class .image img,
+.section4 .main .earlyedu .image img,
+.section4 .main .multi-dimention .image img {
+  width: 100%;
+  height: 100%;
+}
+.section4 .main .boarding-class .text h3,
+.section4 .main .earlyedu .text h3,
+.section4 .main .multi-dimention .text h3 {
+  font-size: 20px;
+  margin: 15px;
+}
+.section4 .main .boarding-class .text p,
+.section4 .main .earlyedu .text p,
+.section4 .main .multi-dimention .text p {
+  font-size: 16px;
+  color: #707070;
+  text-align: center;
+}
+.section5 {
+  padding-top: 20px;
+}
+.section5 .main {
   width: 100%;
   height: 650px;
   margin: 0 auto;
   text-align: center;
   background-image: url("../images/future-bg.png");
 }
-.section4 .main .content {
+.section5 .main .content {
   width: 700px;
   margin: 0 auto;
   position: relative;
 }
-.section4 .main .content img {
+.section5 .main .content img {
   width: 1%;
   height: 100%;
 }
-.section4 .main .content .vision {
+.section5 .main .content .vision {
   width: 130px;
   height: 130px;
   position: absolute;
@@ -145,15 +200,15 @@
   top: 90px;
   left: 220px;
 }
-.section4 .main .content .vision h3 {
+.section5 .main .content .vision h3 {
   font-size: 20px;
 }
-.section4 .main .content .vision p {
+.section5 .main .content .vision p {
   line-height: 30px;
   font-size: 14px;
   margin-top: 20px;
 }
-.section4 .main .content .mission {
+.section5 .main .content .mission {
   width: 130px;
   height: 130px;
   position: absolute;
@@ -162,16 +217,16 @@
   top: 85px;
   right: 105px;
 }
-.section4 .main .content .mission h3 {
+.section5 .main .content .mission h3 {
   font-size: 20px;
   margin-top: 20px;
 }
-.section4 .main .content .mission p {
+.section5 .main .content .mission p {
   line-height: 30px;
   font-size: 14px;
   margin-top: 20px;
 }
-.section4 .main .content .value {
+.section5 .main .content .value {
   width: 130px;
   height: 130px;
   position: absolute;
@@ -180,16 +235,16 @@
   bottom: 125px;
   left: 183px;
 }
-.section4 .main .content .value h3 {
+.section5 .main .content .value h3 {
   font-size: 20px;
   margin-top: 20px;
 }
-.section4 .main .content .value p {
+.section5 .main .content .value p {
   line-height: 30px;
   font-size: 14px;
   margin-top: 20px;
 }
-.section4 .main .content .edu-idea {
+.section5 .main .content .edu-idea {
   width: 130px;
   height: 130px;
   position: absolute;
@@ -198,16 +253,16 @@
   bottom: 163px;
   right: 50px;
 }
-.section4 .main .content .edu-idea h3 {
+.section5 .main .content .edu-idea h3 {
   font-size: 20px;
   margin-top: 20px;
 }
-.section4 .main .content .edu-idea p {
+.section5 .main .content .edu-idea p {
   line-height: 30px;
   font-size: 14px;
   margin-top: 20px;
 }
-.section4 .main .content .manage-idea {
+.section5 .main .content .manage-idea {
   width: 120px;
   height: 120px;
   position: absolute;
@@ -216,11 +271,11 @@
   bottom: 330px;
   right: 250px;
 }
-.section4 .main .content .manage-idea h3 {
+.section5 .main .content .manage-idea h3 {
   font-size: 20px;
   margin-top: 15px;
 }
-.section4 .main .content .manage-idea p {
+.section5 .main .content .manage-idea p {
   line-height: 30px;
   font-size: 14px;
   margin-top: 20px;
@@ -239,14 +294,14 @@
     -webkit-box-shadow: 0 0 9px #333;
   }
 }
-.section5 {
+.section6 {
   width: 100%;
   padding-top: 0px !important;
 }
-.section5 .main {
+.section6 .main {
   text-align: center;
 }
-.section5 .main .join-btn {
+.section6 .main .join-btn {
   width: 170px;
   height: 50px;
   margin-top: 70px;
@@ -270,7 +325,7 @@
   -webkit-animation-duration: 2s;
   -webkit-animation-iteration-count: infinite;
 }
-.section5 .main img {
+.section6 .main img {
   width: 600px;
 }
 .section-footer {

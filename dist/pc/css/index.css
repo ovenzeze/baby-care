@@ -43,21 +43,21 @@
 .slide-wrapper #slide1 {
   background: url("../images/index-slide-1.png") #f7d704;
   background-position: 50% 50%;
-  background-size: 90% 90%;
+  background-size: 85% 85%;
   background-repeat: no-repeat;
 }
 .slide-wrapper #slide2 {
   background: url("../images/index-slide-2.png") #ffad52;
   background-position: 50% 50%;
   background-size: cover;
-  background-size: 90% 90%;
+  background-size: 85% 85%;
   background-repeat: no-repeat;
 }
 .slide-wrapper #slide3 {
   background: url("../images/index-slide-3.png") #6cc9f7;
   background-position: 50% 50%;
   background-size: cover;
-  background-size: 90% 90%;
+  background-size: 85% 85%;
   background-repeat: no-repeat;
 }
 .section2 {
@@ -207,7 +207,6 @@
   height: 100%;
   position: relative;
   z-index: 1;
-  opacity: 0.6;
 }
 .section3 .main .center .title {
   position: absolute;
@@ -219,14 +218,12 @@
   margin-left: 15%;
 }
 .section3 .main .center .title h3 {
-  color: #474747;
   font-size: 25px;
   margin-top: 100px;
   text-align: center;
   font-weight: bold;
 }
 .section3 .main .center .title p {
-  color: #fe9345;
   font-size: 22px;
   margin-top: 30px;
   text-align: center;

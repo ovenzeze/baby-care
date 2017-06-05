@@ -32,19 +32,19 @@ $(document).ready(function () {
                     left: "0px"
                 }, 1500);
             }
-            if (index == 4) {
-                $(".section4 .main .box").animate({
+            if (index == 5) {
+                $(".section5 .main .box").animate({
                     opacity: 1,
                     width: "270px"
                 }, 1000);
             }
-            if (index == 5) {
-                $(".section5 .main .box").animate({
+            if (index == 6) {
+                $(".section6 .main .box").animate({
                     opacity: 1,
                     height: "380px"
                 }, 1000);
             }
-            if (index == 6) {
+            if (index == 7) {
                 $(".page4 .main .left .summary").animate({
                     opacity: 1,
                     left: "150px"
@@ -54,37 +54,6 @@ $(document).ready(function () {
                     right: 0
                 }, 1000);
             }
-            if (index == 7) {
-                $(".page5 .main .left .summary").animate({
-                    opacity: 1,
-                    left: "150px"
-                }, 1000);
-                $(".page5 .main .right p").animate({
-                    opacity: 1,
-                    right: 0
-                }, 1000);
-            }
-            if (index == 8) {
-                $(".page6 .main .left .summary").animate({
-                    opacity: 1,
-                    left: "150px"
-                }, 1000);
-                $(".page6 .main .right p").animate({
-                    opacity: 1,
-                    right: 0
-                }, 1000);
-            }
-            if (index == 9) {
-                $(".page7 .main .left .summary").animate({
-                    opacity: 1,
-                    left: "150px"
-                }, 1000);
-                $(".page7 .main .right p").animate({
-                    opacity: 1,
-                    right: 0
-                }, 1000);
-            }
-
         },
         // onLeave: function (index, nextIndex, direction) {
         //     var leavingSection = $(this);

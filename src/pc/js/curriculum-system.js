@@ -18,7 +18,7 @@ $(document).ready(function () {
                 $(".section2 .main .container .grid figure").animate({
                     opacity: 1,
                     height: "140px"
-                }, 1500);
+                }, 1000);
                 $('#scrollTopBtn').animate({
                     opacity: 0
                 },500);

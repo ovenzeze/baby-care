@@ -1,7 +1,7 @@
 $(document).ready(function() {
     // options of fullpage
     $("#fullpage").fullpage({
-        sectionsColor: ['#e0ecfd', 'white', '#e4e4e3', 'rgb(239, 239, 240)', '#f0f0f0'],
+        sectionsColor: ['#e0ecfd', 'white', '#e4e4e3', 'rgb(239, 239, 240)', '#f0f0f0',"rgb(239, 239, 240)"],
         afterLoad: function(anchorLink, index) {
             //using index
             if (index == 1) {
@@ -34,8 +34,8 @@ $(document).ready(function() {
                     width: "800px"
                 },1500);
             }
-            if(index == 4) {
-                $(".section4 .content img").animate({
+            if(index == 5) {
+                $(".section5 .content img").animate({
                     opacity: 1,
                     width: "100%"
                 },1500);
