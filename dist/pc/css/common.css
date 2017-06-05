@@ -487,8 +487,13 @@ body {
     cursor: pointer;
     transition: 0.5s;
 }
+.footer .about ul li a{
+    text-align: center;
+    cursor: pointer;
+    transition: 0.5s;
+}
 
-.footer .about ul li:hover {
+.footer .about ul li a:hover {
     color: #888;
     text-shadow: 0 1px 2px #333;
 }

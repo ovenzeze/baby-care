@@ -39,6 +39,10 @@
 .section1 .main .slogn h2 {
   margin: 30px 30px;
 }
+.section2 {
+  background-image: url("../images/boarding-class-bg-01.png");
+  background-size: cover;
+}
 .section2 .main {
   width: 1024px;
   margin: 0 auto;
@@ -112,9 +116,6 @@
   font-size: 16px;
   background-color: #ff8000;
   font-weight: bold;
-  -webkit-animation-name: greenPulse;
-  -webkit-animation-duration: 2s;
-  -webkit-animation-iteration-count: infinite;
   transition: all 1s;
 }
 .section3 .main {
@@ -142,6 +143,10 @@
   bottom: -450px;
   right: 140px;
   opacity: 0;
+}
+.section4 {
+  background-image: url("http://www.rybbaby.com/Public/static/themes/image/bg29.jpg");
+  background-size: cover;
 }
 .section4 .main {
   width: 850px;

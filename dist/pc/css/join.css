@@ -41,6 +41,10 @@
   height: 1px;
   opacity: 0;
 }
+.section3 {
+  background-image: url("http://www.rybbaby.com/Public/static/themes/image/bg29.jpg");
+  background-size: cover;
+}
 .section3 .main {
   width: 1100px;
   max-height: 600px;
@@ -60,6 +64,10 @@
   position: relative;
   left: -1500px;
 }
+.section4 {
+  background-image: url("../images/index-bg-02.png");
+  background-size: cover;
+}
 .section4 .main {
   width: 1024px;
   margin: 0 auto;
@@ -78,11 +86,11 @@
   margin: 20px 30px;
   position: relative;
   opacity: 0;
+  overflow: hidden;
 }
 .section4 .main .box img {
-  width: 100%;
   height: 100%;
-  opacity: 0.3;
+  opacity: 0.5;
 }
 .section4 .main .box .content {
   position: absolute;
@@ -116,6 +124,10 @@
   display: none;
   transition: all 2s;
 }
+.section5 {
+  background-image: url("../images/index-bg-02.png");
+  background-size: cover;
+}
 .section5 .main {
   width: 1024px;
   height: 500px;
@@ -138,9 +150,8 @@
   overflow: hidden;
 }
 .section5 .main .box img {
-  width: 100%;
   height: 100%;
-  opacity: 0.3;
+  opacity: 0.5;
 }
 .section5 .main .box .content {
   position: absolute;
@@ -196,8 +207,7 @@
 .section-footer .join-btn {
   width: 500px;
   height: 60px;
-  margin: 0px auto;
-  margin-bottom: 100px;
+  margin: 50px auto;
   border-style: solid;
   border-width: 0;
   cursor: pointer;

@@ -16,18 +16,17 @@ $(document).ready(function() {
         if (index == 2) {
             $('.section2 .main ul').animate({
                 opacity: 1
-            },1500);
+            },500);
             $('.section2 .main .item-content').animate({
                 opacity: 1,
                 bottom: 0
-            },1500);
+            },1000);
         }
             if (index == 3) {
-                $('.section3 .main img').animate({
-                    opacity: 1,
-                    width: "100%",
-                    height: "100%"
-                },1500);
+                // $('.section3 .main img').animate({
+                //     opacity: 1,
+                //     width: "100%"
+                // },1500);
             }
             if (index == 4) {
                 $('.section4 .main .img-text').animate({
@@ -53,7 +52,7 @@ $(document).ready(function() {
         },
         fitToSection: true,
         paddingTop: "100px",
-        autoScrolling: false,
+        autoScrolling: true,
     //     onLeave: function(index, nextIndex, direction) {
     //         if(index == 1) {
     //             $(".section1 .main .text").animate({

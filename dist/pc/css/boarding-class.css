@@ -33,6 +33,10 @@
   opacity: 0;
   height: 160px;
 }
+.section2 {
+  background-image: url("../images/boarding-class-bg-01.png");
+  background-size: cover;
+}
 .section2 .main {
   width: 1024px;
   margin: 0 auto;
@@ -107,14 +111,16 @@
   font-size: 16px;
   background-color: #e7b325;
   font-weight: bold;
-  -webkit-animation-name: greenPulse;
-  -webkit-animation-duration: 2s;
-  -webkit-animation-iteration-count: infinite;
   transition: all 2s;
 }
+.section3 {
+  background-image: url("../images/boarding-class-bg-02.png");
+  background-size: cover;
+}
 .section3 .main {
-  width: 750px;
+  width: 1200px;
   margin: 0px auto;
+  text-align: center;
 }
 .section3 .main h1 {
   text-align: center;
@@ -124,8 +130,10 @@
   margin-top: 20px;
 }
 .section3 .main img {
-  width: 1%;
-  height: 1%;
+  width: 600px;
+  height: auto;
+  margin: 0 auto;
+  text-align: center;
 }
 .section4 .main {
   width: 100%;

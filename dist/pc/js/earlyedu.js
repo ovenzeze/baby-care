@@ -57,7 +57,7 @@ $(document).ready(function() {
             }
         },
         fitToSection: false,
-        autoScrolling: false,
+        autoScrolling: true,
         paddingTop: "100px"
     });
     // options of fullpage end

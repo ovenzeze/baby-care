@@ -1,3 +1,7 @@
+.section1 {
+  background-image: url("../images/index-bg-02.png");
+  background-size: cover;
+}
 .section1 .main {
   width: 1024px;
   text-align: center;
@@ -42,6 +46,10 @@
   -webkit-animation-iteration-count: infinite;
   transition: all 1s;
 }
+.section2 {
+  background-image: url("http://www.rybbaby.com/Public/static/themes/image/bg29.jpg");
+  background-size: cover;
+}
 .section2 .main {
   width: 1024px;
   height: 400px;
@@ -54,12 +62,12 @@
   margin: 50px auto;
 }
 .section2 .main .content h3 {
-  font-size: 22px;
+  font-size: 24px;
   line-height: 30px;
   margin-bottom: 20px;
 }
 .section2 .main .content p {
-  font-size: 16px;
+  font-size: 18px;
   width: 70%;
   margin: 10px auto;
   line-height: 30px;
@@ -77,7 +85,8 @@
 }
 .section2 .main .content ul li {
   text-align: left;
-  line-height: 30px;
+  line-height: 35px;
+  font-size: 16px;
 }
 .section2 .main .content ul li .point {
   display: inline-block;
