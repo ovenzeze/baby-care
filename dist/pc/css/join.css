@@ -85,13 +85,13 @@
   color: #707070;
 }
 .section4 .main .boarding-class {
-  left: -500px;
+  left: -300px;
 }
 .section4 .main .earlyedu {
-  bottom: -500px;
+  bottom: -400px;
 }
 .section4 .main .multi-dimention {
-  right: -500px;
+  right: -300px;
 }
 .section4 .main .boarding-class,
 .section4 .main .earlyedu,
@@ -104,6 +104,13 @@
   margin-left: 50px;
   position: relative;
   opacity: 0;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.section4 .main .boarding-class:hover,
+.section4 .main .earlyedu:hover,
+.section4 .main .multi-dimention:hover {
+  box-shadow: 1px 1px 30px rgba(0,0,0,0.5);
 }
 .section4 .main .boarding-class .image,
 .section4 .main .earlyedu .image,
@@ -154,9 +161,13 @@
   opacity: 0;
   overflow: hidden;
 }
+.section5 .main .box:hover img {
+  opacity: 0.2;
+}
 .section5 .main .box img {
   height: 100%;
   opacity: 0.5;
+  transition: all 0.5s;
 }
 .section5 .main .box .content {
   position: absolute;
@@ -215,10 +226,14 @@
   opacity: 0;
   overflow: hidden;
 }
+.section6 .main .box:hover img {
+  opacity: 0.2;
+}
 .section6 .main .box img {
   width: 100%;
   height: 100%;
   opacity: 0.5;
+  transition: all 0.5s;
 }
 .section6 .main .box .content {
   position: absolute;

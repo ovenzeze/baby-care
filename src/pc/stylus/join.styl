@@ -77,11 +77,11 @@
       margin: 30px
       color: #707070
     .boarding-class
-      left: -500px
+      left: -300px
     .earlyedu
-      bottom: -500px
+      bottom: -400px
     .multi-dimention
-      right: -500px
+      right: -300px
     .boarding-class,.earlyedu,.multi-dimention
       width: 300px
       height: 480px
@@ -91,6 +91,10 @@
       margin-left: 50px
       position: relative
       opacity: 0
+      cursor: pointer
+      transition: all 0.5s
+      &:hover
+        box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.5)
       .image
         width: 100%
         height: 400px
@@ -127,10 +131,13 @@
       position: relative
       opacity: 0
       overflow: hidden
+      &:hover
+        img
+          opacity: 0.2
       img
-        //width: 100%
         height: 100%
         opacity: 0.5
+        transition: all 0.5s
       .content
         position: absolute
         width: 100%
@@ -180,10 +187,14 @@
       position: relative
       opacity: 0
       overflow: hidden
+      &:hover
+        img
+          opacity: 0.2
       img
         width: 100%
         height: 100%
         opacity: 0.5
+        transition: all 0.5s
       .content
         position: absolute
         width: 100%

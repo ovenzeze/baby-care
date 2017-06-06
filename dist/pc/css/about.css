@@ -157,6 +157,13 @@
   margin-left: 50px;
   position: relative;
   opacity: 0;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.section4 .main .boarding-class:hover,
+.section4 .main .earlyedu:hover,
+.section4 .main .multi-dimention:hover {
+  box-shadow: 1px 1px 30px rgba(0,0,0,0.5);
 }
 .section4 .main .boarding-class .image,
 .section4 .main .earlyedu .image,
