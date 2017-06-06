@@ -41,9 +41,7 @@
   opacity: 0;
   bottom: -300px;
   z-index: 2;
-  -webkit-animation-name: move;
-  -webkit-animation-duration: 2s;
-  -webkit-animation-iteration-count: infinite;
+  -webkit-animation: move 4s linear infinite;
   transition: all 1s;
 }
 .section2 {
@@ -348,40 +346,4 @@
 }
 .section-footer {
   padding-top: 0px !important;
-}
-@-webkit-keyframes move {
-  0% {
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
-  33% {
-    -webkit-transform: rotate(-5deg);
-    transform: rotate(-5deg);
-  }
-  66% {
-    -webkit-transform: rotate(5deg);
-    transform: rotate(0deg);
-  }
-  100% {
-    -webkit-transform: rotate(0deg);
-    transform: rotate(5deg);
-  }
-}
-@keyframes move {
-  0% {
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
-  33% {
-    -webkit-transform: rotate(-5deg);
-    transform: rotate(-5deg);
-  }
-  66% {
-    -webkit-transform: rotate(5deg);
-    transform: rotate(0deg);
-  }
-  100% {
-    -webkit-transform: rotate(0deg);
-    transform: rotate(5deg);
-  }
 }

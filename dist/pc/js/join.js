@@ -20,11 +20,80 @@ $(document).ready(function () {
                 }, 1500);
             }
             if (index == 2) {
-                $(".section2 .main img").animate({
-                    opacity: 1,
-                    width: "720px",
-                    height: "480px"
-                }, 1500);
+                // 基于准备好的dom，初始化echarts图表
+                var myChart = echarts.init(document.getElementById('chartBox'));
+
+                var colors = ['#5793f3','rgba(234, 177, 69, 0.7)'];
+
+                var option = {
+                    color: colors,
+                    tooltip: {
+                        trigger: 'axis',
+                        axisPointer: {type: 'cross'}
+                    },
+                    grid: {
+                        right: '20%'
+                    },
+                    legend: {
+                        data:['母婴行业市场规模','增长率']
+                    },
+                    xAxis: [
+                        {
+                            type: 'category',
+                            axisTick: {
+                                alignWithLabel: true
+                            },
+                            data: ['2007','2008','2009','2010','2011','2012','2013','2014','2015','2016','2017F','2018F']
+                        }
+                    ],
+                    yAxis: [
+                        {
+                            type: 'value',
+                            name: '母婴行业市场规模',
+                            min: 0,
+                            max: 35000,
+                            position: 'right',
+                            axisLine: {
+                                lineStyle: {
+                                    color: colors[0]
+                                }
+                            },
+                            axisLabel: {
+                                formatter: '{value} 万元'
+                            }
+                        },
+                        {
+                            type: 'value',
+                            name: '增长率',
+                            min: 0,
+                            max: 20,
+                            position: 'left',
+                            axisLine: {
+                                lineStyle: {
+                                    color: colors[1]
+                                }
+                            },
+                            axisLabel: {
+                                formatter: '{value} %'
+                            }
+                        }
+                    ],
+                    series: [
+                        {
+                            name:'母婴行业市场规模',
+                            type:'bar',
+                            data:[6900, 7895, 9876, 11986, 12356, 13678, 14567, 16234, 19334, 22554, 25919, 30196]
+                        },
+                        {
+                            name:'增长率',
+                            type:'line',
+                            yAxisIndex: 1,
+                            data:[10.0, 11, 12, 13.5, 14.3, 15.2, 16.0, 16.4, 17.0, 17.5, 18.5, 19]
+                        }
+                    ]
+                };
+                // 为echarts对象加载数据
+                myChart.setOption(option);
             }
             if (index == 3) {
                 $(".section3 .main p").animate({

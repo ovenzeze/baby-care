@@ -480,9 +480,9 @@ body {
     list-style: none;
     float: left;
     width: 25%;
-    font-size: 16px;
+    font-size: 18px;
     padding-top: 92px;
-    text-shadow: 0 1px 2px #ccc;
+    /*text-shadow: 0 1px 2px #ccc;*/
     text-align: center;
     cursor: pointer;
     transition: 0.5s;
@@ -495,7 +495,7 @@ body {
 
 .footer .about ul li a:hover {
     color: #888;
-    text-shadow: 0 1px 2px #333;
+    /*text-shadow: 0 1px 2px #333;*/
 }
 
 .footer .contact {

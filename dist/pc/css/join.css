@@ -36,10 +36,9 @@
   margin-top: 20px;
   margin-bottom: 30px;
 }
-.section2 .main img {
-  width: 1px;
-  height: 1px;
-  opacity: 0;
+.section2 .main #chartBox {
+  width: 100%;
+  height: 600px;
 }
 .section3 {
   background-image: url("http://www.rybbaby.com/Public/static/themes/image/bg29.jpg");
@@ -162,7 +161,7 @@
   overflow: hidden;
 }
 .section5 .main .box:hover img {
-  opacity: 0.2;
+  opacity: 0.1;
 }
 .section5 .main .box img {
   height: 100%;
@@ -227,7 +226,7 @@
   overflow: hidden;
 }
 .section6 .main .box:hover img {
-  opacity: 0.2;
+  opacity: 0.1;
 }
 .section6 .main .box img {
   width: 100%;

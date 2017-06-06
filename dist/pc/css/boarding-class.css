@@ -39,12 +39,101 @@
 }
 .section2 .main {
   width: 1024px;
+  height: 600px;
   margin: 0 auto;
+  position: relative;
+}
+.section2 .main img {
+  position: absolute;
+  top: 0px;
 }
 .section2 .main h1 {
   text-align: center;
-  margin-top: 100px;
+  margin-top: 50px;
   margin-bottom: 100px;
+}
+.section2 .main .advantage1,
+.section2 .main .advantage2,
+.section2 .main .advantage3,
+.section2 .main .advantage4,
+.section2 .main .advantage5,
+.section2 .main .advantage6 {
+  position: absolute;
+  background-color: rgba(99,214,221,0.7);
+  border-radius: 50%;
+  opacity: 0;
+  transition: all 1s;
+  cursor: pointer;
+}
+.section2 .main .advantage1:hover,
+.section2 .main .advantage2:hover,
+.section2 .main .advantage3:hover,
+.section2 .main .advantage4:hover,
+.section2 .main .advantage5:hover,
+.section2 .main .advantage6:hover {
+  box-shadow: 1px 1px 30px rgba(0,0,0,0.5);
+  font-size: 15px;
+}
+.section2 .main .advantage1 div,
+.section2 .main .advantage2 div,
+.section2 .main .advantage3 div,
+.section2 .main .advantage4 div,
+.section2 .main .advantage5 div,
+.section2 .main .advantage6 div {
+  width: 80%;
+  height: 70%;
+  text-align: center;
+  margin: 40px auto;
+}
+.section2 .main .advantage1 div span,
+.section2 .main .advantage2 div span,
+.section2 .main .advantage3 div span,
+.section2 .main .advantage4 div span,
+.section2 .main .advantage5 div span,
+.section2 .main .advantage6 div span {
+  display: block;
+  line-height: 25px;
+  font-size: 14px;
+  margin: 15px 0;
+}
+.section2 .main .advantage1 {
+  width: 200px;
+  height: 200px;
+  top: 780px;
+  left: -70px;
+}
+.section2 .main .advantage2 {
+  width: 230px;
+  height: 230px;
+  top: 710px;
+  left: 100px;
+}
+.section2 .main .advantage3 {
+  width: 220px;
+  height: 220px;
+  top: 700px;
+  left: 280px;
+}
+.section2 .main .advantage4 {
+  width: 240px;
+  height: 240px;
+  top: 705px;
+  left: 460px;
+}
+.section2 .main .advantage4 span {
+  margin: 20px 0;
+}
+.section2 .main .advantage5 {
+  width: 200px;
+  height: 200px;
+  top: 792px;
+  right: 160px;
+}
+.section2 .main .advantage6 {
+  width: 230px;
+  height: 230px;
+  top: 770px;
+  right: -50px;
 }
 .section2 .main .item-list {
   width: 1024px;
@@ -118,9 +207,11 @@
   background-size: cover;
 }
 .section3 .main {
-  width: 1200px;
+  width: 1000px;
+  height: 600px;
   margin: 0px auto;
   text-align: center;
+  position: relative;
 }
 .section3 .main h1 {
   text-align: center;
@@ -130,10 +221,40 @@
   margin-top: 20px;
 }
 .section3 .main img {
-  width: 600px;
-  height: auto;
+  width: 500px;
+  height: 0px;
+  opacity: 0;
+  position: absolute;
+  bottom: 0;
+  right: 30%;
   margin: 0 auto;
   text-align: center;
+}
+.section3 .main p {
+  position: absolute;
+  font-size: 22px;
+  font-weight: bold;
+  opacity: 0;
+}
+.section3 .main .text-1 {
+  right: 550px;
+  top: 170px;
+}
+.section3 .main .text-2 {
+  left: 440px;
+  top: 233px;
+}
+.section3 .main .text-3 {
+  right: 550px;
+  top: 343px;
+}
+.section3 .main .text-4 {
+  left: 460px;
+  top: 450px;
+}
+.section3 .main .text-5 {
+  right: 560px;
+  top: 540px;
 }
 .section4 .main {
   width: 100%;

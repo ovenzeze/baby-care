@@ -4,29 +4,67 @@
 $(document).ready(function() {
     // options of fullpage
     $("#fullpage").fullpage({
-        sectionsColor: ['white', 'rgba(224, 236, 253, 0.3)', 'white', '#6cc9f9',"#f7d804"],
+        sectionsColor: ['white', 'rgba(224, 236, 253, 0.3)', '#6cc9f9', '#6cc9f9',"#f7d804"],
         afterLoad: function(anchorLink, index) {
             //using index
             if(index == 1) {
                 $(".section1 .main .text").animate({
                     opacity: 1,
-                    left: "300px"
+                    left: "200px"
                 },1500);
             }
         if (index == 2) {
-            $('.section2 .main ul').animate({
-                opacity: 1
-            },500);
-            $('.section2 .main .item-content').animate({
+            $('.section2 .main .advantage1').animate({
                 opacity: 1,
-                bottom: 0
+                top: "280px"
+            },300);
+            $('.section2 .main .advantage2').animate({
+                opacity: 1,
+                top: "210px"
+            },500);
+            $('.section2 .main .advantage3').animate({
+                opacity: 1,
+                top: "300px"
+            },700);
+            $('.section2 .main .advantage4').animate({
+                opacity: 1,
+                top: "205px"
             },1000);
+            $('.section2 .main .advantage5').animate({
+                opacity: 1,
+                top: "292px"
+            },1200);
+            $('.section2 .main .advantage6').animate({
+                opacity: 1,
+                top: "270px"
+            },1400);
         }
             if (index == 3) {
-                // $('.section3 .main img').animate({
-                //     opacity: 1,
-                //     width: "100%"
-                // },1500);
+                $('.section3 .main img').animate({
+                    opacity: 1,
+                    height: "550px"
+                },1000,function(){
+                    $('.section3 .main .text-1').animate({
+                        opacity: 1,
+                        right: "350px"
+                    },1500);
+                    $('.section3 .main .text-2').animate({
+                        opacity: 1,
+                        left: "240px"
+                    },1500);
+                    $('.section3 .main .text-3').animate({
+                        opacity: 1,
+                        right: "350px"
+                    },1500);
+                    $('.section3 .main .text-4').animate({
+                        opacity: 1,
+                        left: "260px"
+                    },1500);
+                    $('.section3 .main .text-5').animate({
+                        opacity: 1,
+                        right: "360px"
+                    },1500);
+                });
             }
             if (index == 4) {
                 $('.section4 .main .img-text').animate({
@@ -104,7 +142,7 @@ $(document).ready(function() {
     var listData = {
         0: ["6:2 科学师生配比","真正意义的小班授课","更精细到位的看护"],
         1: ["早教与托班结合", "周末免费亲子早教课", "增强亲子关系，安全度过敏感期"],
-        2: ["至少每月一次享受一次课外集体活动", "外出旅游、电影、3D画展等", "利于宝宝社交能力发展的活动"],
+        2: [],
         3: ["每月享受1-2次主题活动", "节日会、生日会、音乐会锻炼宝宝交流能力","读书会、故事会开阔宝宝视野"],
         4: ["免费绘本借阅","宝宝专用图书角","免费专人指导"],
         5: ["定期测评宝宝各项能力","针对弱项进行重点训练","关注每一个宝宝"],

@@ -17,13 +17,22 @@ $(document).ready(function() {
                 },1500);
             }
             if (index == 2) {
-                $('.section2 .main ul').animate({
-                    opacity: 1
-                },1500);
-                $('.section2 .main .item-content').animate({
+                $('.section2 .main .advantage1').animate({
                     opacity: 1,
-                    bottom: 0
-                },1500);
+                    top: "230px"
+                },300);
+                $('.section2 .main .advantage2').animate({
+                    opacity: 1,
+                    top: "320px"
+                },500);
+                $('.section2 .main .advantage3').animate({
+                    opacity: 1,
+                    top: "210px"
+                },800);
+                $('.section2 .main .advantage4').animate({
+                    opacity: 1,
+                    top: "325px"
+                },1000);
             }
             // if (index == 3) {
             //     $('.section3 .main .img-bg').animate({
@@ -64,7 +73,7 @@ $(document).ready(function() {
     // section2 switch list
     var listData = {
         0: ["三代教育理念","自主研发专业教材","针对性教育方案"],
-        1: ["早教与托班结合", "不限课时学习", "自由、灵活选择学习时间"],
+        1: [""],
         2: ["多陪护人制度", "父母、老人、朋友均可参与", "让孩子充分接触到不同的大人"],
         3: ["24小时响应，随时解决育儿问题", "随堂课程反馈","专为宝宝研发的启智游戏，锻炼宝宝各项能力"]
     };

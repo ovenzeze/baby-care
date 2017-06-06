@@ -32,11 +32,59 @@
   background-size: cover
   .main
     width: 1024px
+    height: 600px
     margin: 0 auto
+    position: relative
     h1
       text-align: center
       margin-top: 50px
       margin-bottom: 50px
+    img
+      position: absolute
+      top: 0
+      left: 100px
+      width: 800px
+    .advantage1,.advantage2,.advantage3,.advantage4,.advantage5,.advantage6
+      position: absolute
+      background-color: rgba(99, 214, 221, 0.7)
+      border-radius: 50%
+      opacity: 0
+      transition: all 1s
+      cursor: pointer
+      padding-top: 25px
+      &:hover
+        box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.5)
+        font-size: 15px
+      div
+        width: 80%
+        height: 70%
+        text-align: center
+        margin: 40px auto
+        span
+          display: block
+          line-height: 25px
+          font-size: 14px
+          margin: 15px 0
+    .advantage1
+      width: 230px
+      height: 230px
+      top: 780px
+      left: 100px
+    .advantage2
+      width: 250px
+      height: 250px
+      top: 710px
+      left: 300px
+    .advantage3
+      width: 250px
+      height: 250px
+      top: 700px
+      right: 275px
+    .advantage4
+      width: 260px
+      height: 260px
+      top: 705px
+      right: 60px
     .item-list
       width: 1024px
       height: 40px

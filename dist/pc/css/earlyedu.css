@@ -45,12 +45,89 @@
 }
 .section2 .main {
   width: 1024px;
+  height: 600px;
   margin: 0 auto;
+  position: relative;
 }
 .section2 .main h1 {
   text-align: center;
   margin-top: 50px;
   margin-bottom: 50px;
+}
+.section2 .main img {
+  position: absolute;
+  top: 0;
+  left: 100px;
+  width: 800px;
+}
+.section2 .main .advantage1,
+.section2 .main .advantage2,
+.section2 .main .advantage3,
+.section2 .main .advantage4,
+.section2 .main .advantage5,
+.section2 .main .advantage6 {
+  position: absolute;
+  background-color: rgba(99,214,221,0.7);
+  border-radius: 50%;
+  opacity: 0;
+  transition: all 1s;
+  cursor: pointer;
+  padding-top: 25px;
+}
+.section2 .main .advantage1:hover,
+.section2 .main .advantage2:hover,
+.section2 .main .advantage3:hover,
+.section2 .main .advantage4:hover,
+.section2 .main .advantage5:hover,
+.section2 .main .advantage6:hover {
+  box-shadow: 1px 1px 30px rgba(0,0,0,0.5);
+  font-size: 15px;
+}
+.section2 .main .advantage1 div,
+.section2 .main .advantage2 div,
+.section2 .main .advantage3 div,
+.section2 .main .advantage4 div,
+.section2 .main .advantage5 div,
+.section2 .main .advantage6 div {
+  width: 80%;
+  height: 70%;
+  text-align: center;
+  margin: 40px auto;
+}
+.section2 .main .advantage1 div span,
+.section2 .main .advantage2 div span,
+.section2 .main .advantage3 div span,
+.section2 .main .advantage4 div span,
+.section2 .main .advantage5 div span,
+.section2 .main .advantage6 div span {
+  display: block;
+  line-height: 25px;
+  font-size: 14px;
+  margin: 15px 0;
+}
+.section2 .main .advantage1 {
+  width: 230px;
+  height: 230px;
+  top: 780px;
+  left: 100px;
+}
+.section2 .main .advantage2 {
+  width: 250px;
+  height: 250px;
+  top: 710px;
+  left: 300px;
+}
+.section2 .main .advantage3 {
+  width: 250px;
+  height: 250px;
+  top: 700px;
+  right: 275px;
+}
+.section2 .main .advantage4 {
+  width: 260px;
+  height: 260px;
+  top: 705px;
+  right: 60px;
 }
 .section2 .main .item-list {
   width: 1024px;
