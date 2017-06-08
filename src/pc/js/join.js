@@ -111,8 +111,8 @@ $(document).ready(function () {
                     bottom: "0px"
                 }, 1500);
                 $(".section4 .main .multi-dimention").animate({
-                    opacity: 1,
-                    right: "0px"
+                    right: "0px",
+                    opacity: 1
                 }, 1500);
             }
             if (index == 5) {

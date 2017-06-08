@@ -4,7 +4,7 @@
 $(document).ready(function() {
     // options of fullpage
     $("#fullpage").fullpage({
-        sectionsColor: ['white', 'rgba(224, 236, 253, 0.3)', '#6cc9f9', '#6cc9f9',"#f7d804"],
+        sectionsColor: ['white', 'white', '#6cc9f9', '#6cc9f9',"#f7d804"],
         afterLoad: function(anchorLink, index) {
             //using index
             if(index == 1) {

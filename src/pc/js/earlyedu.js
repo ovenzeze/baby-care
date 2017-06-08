@@ -7,7 +7,7 @@
 $(document).ready(function() {
     // options of fullpage
     $("#fullpage").fullpage({
-        sectionsColor: ['rgb(162, 225, 226)', 'rgba(224, 236, 253, 0.3)', 'white'],
+        sectionsColor: ['rgb(162, 225, 226)', 'white', 'white'],
         afterLoad: function(anchorLink, index) {
             //using index
             if(index == 1) {
@@ -31,7 +31,7 @@ $(document).ready(function() {
                 },800);
                 $('.section2 .main .advantage4').animate({
                     opacity: 1,
-                    top: "325px"
+                    top: "245px"
                 },1000);
             }
             // if (index == 3) {

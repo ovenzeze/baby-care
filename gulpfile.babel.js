@@ -42,8 +42,8 @@ gulp.task('js-mobile',function () {
 gulp.task('browserSync',function () {
     browserSync({
         server: {
-            baseDir: 'dist/pc'
-            // baseDir: 'dist/mobile'
+            // baseDir: 'dist/pc'
+            baseDir: 'dist/mobile'
         }
     })
 }
